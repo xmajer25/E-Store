@@ -1,0 +1,43 @@
+.button_topleft{
+    align-self: flex-start;
+}
+
+.button_topright{
+    align-self: flex-end;
+}
+
+.login_navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_button{
+    background-color: #262626;
+    background-image: url('../Assets/homePage.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    border: none;
+    width: 50px;
+    
+}
+
+.login_button{
+    margin-top: 30px;
+}

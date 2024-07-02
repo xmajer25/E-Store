@@ -1,0 +1,41 @@
+body{
+    background-color:#262626;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: white;
+}
+
+input{
+    border: 2px solid white;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 7px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #262626;
+    color:white
+}
+
+input::placeholder{
+    color:white
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+button{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #262626;
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.error{
+    color: darkred;
+}
+
