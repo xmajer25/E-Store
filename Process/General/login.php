@@ -31,7 +31,8 @@
 
 
     function exitError($msg){
-        $_SESSION['error'] = $msg;
+        $_SESSION['alert_msg'] = $msg;
+        $_SESSION['alert_type'] = "error";
         header('Location: ../../Pages/General/login_page.php');
         exit;
     }

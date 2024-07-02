@@ -6,7 +6,7 @@
     align-self: flex-end;
 }
 
-.login_navigation{
+.account_navigation{
     display: flex;
     justify-content: space-between;
 }
